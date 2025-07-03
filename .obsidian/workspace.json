@@ -41,16 +41,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Design Systems/01 - Design System Resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "01 - Design System Resources"
+            }
+          },
+          {
+            "id": "886d6c45ddd3b12e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Drupal Local Dev Setup/03 - Modules for UI Suite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03 - Modules for UI Suite"
+            }
+          },
+          {
+            "id": "30e6e325f0e24e8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Drupal Local Dev Setup/03 - Modules for UI Suite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03 - Modules for UI Suite"
+            }
+          },
+          {
+            "id": "807238ecf6531ada",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Check for dependencies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Check for dependencies"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,11 +239,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c169be491938e63d",
+  "active": "886d6c45ddd3b12e",
   "lastOpenFiles": [
+    "Design Systems/00 - Design Systems 101.md",
+    "Drupal Local Dev Setup/03 - Modules for UI Suite.md",
     "Drupal Local Dev Setup/02 - Drupal 11 Local Dev Installation.md",
     "Drupal Local Dev Setup/01 - Drupal Dependencies.md",
-    "Design Systems/Design Systems.md",
+    "Design Systems/01 - Design System Resources.md",
+    "Design Systems/02 - Naming.md",
+    "Check for dependencies.md",
     "Welcome.md",
     "Drupal Local Dev Setup",
     "Design Systems"
