@@ -1,10 +1,8 @@
+STATUS: WIP
 
+Design systems benefit from having a unique name. The name should not reference anything within the organizations brand guide, to ensure the design system is not confused with the brand or other tools.
 
-Design systems benefit from having a unique name. The name should not reference anything within the organizations brand guide, to ensure the design system is not confused with the brand. 
-
-A design system is not a brand.
-
-### Examples
+## Examples
 
 Adobe → "Spectrum"
 eBay → "Playbook"

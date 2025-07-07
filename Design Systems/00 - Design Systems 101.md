@@ -1,3 +1,4 @@
+STATUS: WIP
 
 A design system is a library of components which are used by developers to build the user interface of a website or piece of software. They streamline repetitive work, ensure design consistency, and facilitate governance of an organization's digital decisions.
 

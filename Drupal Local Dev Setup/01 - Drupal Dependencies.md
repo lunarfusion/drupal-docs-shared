@@ -1,14 +1,24 @@
-UPDATED: JUNE 17, 2025
+UPDATED: JULY 7, 2025
 
 **CONTENTS**
 1. Mac Installation
 2. PC Installation (needs documentation)
 
 ------
-In order to run a Drupal local development environment on your machine, you will need to install some dependencies. The following instructions should be carried out in your CLI.
+In order to run a Drupal local development environment on your machine, you will need to install some dependencies. The following instructions should be carried out in your CLI (command line interface).
 
 -----
 ## Mac Installation
+
+### The List:
+HOMEBREW
+GIT
+PHP
+COMPOSER
+DRUSH
+ORBSTACK 
+DDEV
+
 
 On mac, the CLI application is called Terminal. To access CLI on your mac, go to Applications > Terminal.
 
