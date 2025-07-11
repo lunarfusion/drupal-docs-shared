@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Drupal Modules/02 - Modules for SDC and UI Suite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "02 - Modules for SDC and UI Suite"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Drupal Local Dev Setup/03 - Modules for SDC and UI Suite.md",
+                "file": "Drupal Modules/02 - Modules for SDC and UI Suite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Modules for SDC and UI Suite"
+              "title": "02 - Modules for SDC and UI Suite"
             }
           }
         ],
@@ -225,16 +225,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c27551c3c9a25de",
+  "active": "886d6c45ddd3b12e",
   "lastOpenFiles": [
-    "Drupal Local Dev Setup/03 - Modules for SDC and UI Suite.md",
-    "Check for dependencies.md",
+    "Drupal Modules/01 - Content Modules.md",
+    "Drupal Modules/02 - Modules for SDC and UI Suite.md",
+    "Drupal Modules",
+    "Drupal Themeing/00 - Beginning Themeing.md",
+    "Drupal Themeing",
     "Drupal Local Dev Setup/02 - Drupal 11 Local Dev Installation.md",
     "Drupal Local Dev Setup/01 - Drupal Dependencies.md",
+    "Welcome.md",
+    "Check for dependencies.md",
     "Design Systems/02 - Naming.md",
     "Design Systems/01 - Design System Resources.md",
     "Design Systems/00 - Design Systems 101.md",
-    "Welcome.md",
     "Drupal Local Dev Setup",
     "Design Systems"
   ]
