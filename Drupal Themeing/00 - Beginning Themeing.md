@@ -108,8 +108,8 @@ You can store your logo and screenshot image files anywhere in your theme direct
 	- 📁 icons
 	- 📁 js
 	- 📁 assets
-		- - 📄 logo.svg
-		- - 📄 screenshot.png
+		-  📄 logo.svg
+		-  📄 screenshot.png
 	- 📄 style.css
 
 
@@ -143,6 +143,6 @@ regions:
 
 Next, flush your Drupal cache:
 
-`ddev drush cr
+`ddev drush cr`
 `
 And you should see the logo and screenshot in your local dev environment.
