@@ -13,3 +13,6 @@ For providing components that editors can use in CKeditor.
 https://www.drupal.org/project/embedded_content
 https://www.drupal.org/project/embedded_content_sdc
 
+
+## Editoria11y
+https://www.drupal.org/project/editoria11y
