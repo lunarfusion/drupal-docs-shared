@@ -144,5 +144,5 @@ regions:
 Next, flush your Drupal cache:
 
 `ddev drush cr`
-`
+
 And you should see the logo and screenshot in your local dev environment.
