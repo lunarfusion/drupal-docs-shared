@@ -1,4 +1,4 @@
-UPDATED: JULY 7, 2025
+UPDATED: JULY 16, 2025
 
 **CONTENTS**
 1. Mac Installation
@@ -6,6 +6,10 @@ UPDATED: JULY 7, 2025
 
 ------
 In order to run a Drupal local development environment on your machine, you will need to install some dependencies. The following instructions should be carried out in your CLI (command line interface).
+
+**VIDEO**
+These instructions have a companion video which can be found here:
+https://www.youtube.com/watch?v=kKyXXqnwS9g&t=207s
 
 -----
 ## Mac Installation

@@ -1,5 +1,10 @@
 UPDATED JULY 8, 2025
 
+
+**VIDEO**
+These instructions have a companion video which can be found here:
+https://www.youtube.com/watch?v=KuapsnUBBSc&t=51s
+
 We will use ddev to quickly spin up a local sandbox site. Change "drupal11" to whatever you want to call your site directory.
 
 ```

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Drupal Themeing/01 - Frontend Design and Development.md",
+                "file": "Drupal Themeing/00 - Beginning Themeing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Frontend Design and Development"
+              "title": "00 - Beginning Themeing"
             }
           }
         ],
@@ -199,17 +199,17 @@
   },
   "active": "30e6e325f0e24e8e",
   "lastOpenFiles": [
+    "Drupal Modules/02 - Modules for SDC and UI Suite.md",
+    "Drupal Modules/01 - Content Modules.md",
+    "Drupal Local Dev Setup/02 - Drupal 11 Local Dev Installation.md",
+    "Drupal Local Dev Setup/01 - Drupal Dependencies.md",
     "Drupal Themeing/00 - Beginning Themeing.md",
     "Drupal Themeing/01 - Frontend Design and Development.md",
-    "Drupal Modules/01 - Content Modules.md",
-    "Drupal Modules/02 - Modules for SDC and UI Suite.md",
     "Welcome.md",
     "Design Systems/01 - Design System Resources.md",
     "Drupal Modules/03 - Access.md",
     "Drupal Modules",
     "Drupal Themeing",
-    "Drupal Local Dev Setup/02 - Drupal 11 Local Dev Installation.md",
-    "Drupal Local Dev Setup/01 - Drupal Dependencies.md",
     "Check for dependencies.md",
     "Design Systems/02 - Naming.md",
     "Design Systems/00 - Design Systems 101.md",

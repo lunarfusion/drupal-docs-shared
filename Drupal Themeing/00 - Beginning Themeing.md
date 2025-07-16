@@ -37,8 +37,112 @@ This will display all available variables for that template (you should see them
 
 Just to show up in appearance, your theme must have:
 
-themename.info.yml
-themename.libraries.yml
+1.  themename.info.yml
+2. themename.libraries.yml
 
-Any CSS or JS referenced in the libraries.yml will need to be included, as well.
+Drupal uses the term "libraries" to refer to assets such as CSS and JS which are needed by the theme. We will list those in our libraries file and we will include those CSS and JS files inside our theme directory (folder).
 
+To demonstrate how this file structure could exist within the site's web directory:
+
+📁 web
+	📁 themes
+		📁 custom
+			📁 themename
+				- 📄 themename.info.yml
+				- 📄 themename.libraries.yml
+				- 📄 style.css
+
+(you can also place your CSS file in a subdirectory if you prefer).
+
+### Example  📄 themename.info.yml:
+
+```
+name: themename
+description: An experimental Drupal theme
+type: theme
+core_version_requirement: ^11
+base theme: false
+
+libraries:
+  - themename/themename
+
+regions:
+  header_top: 'Header Top'
+  header: 'Header'
+  header_bottom: 'Header Bottom'
+  content_top: 'Content Top'
+  content: 'Content'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  content_bottom: 'Content Bottom'
+  footer_top: 'Footer Top'
+  footer: 'Footer'
+  footer_bottom: 'Footer Bottom'
+```
+
+
+### Example 📄 themename.libraries.yml:
+
+```
+themename:
+  css:
+    theme:
+      style.css: {}
+```
+
+If you place your CSS in a directory (folder), be sure to update the path in your libraries file to point to that location.
+
+
+## Theme logo and screenshot
+
+You can add a logo (which appears in your site's branding block) and a screenshot (which appears on the Appearance page in your site's administrative dashboard).
+
+Screenshot suggested dimensions are 480px x 360px. Most themes display a screenshot of the theme with demo content as it might appear in a finished site. But it's perfectly fine to create a placeholder screenshot while your theme is in development.
+
+You can store your logo and screenshot image files anywhere in your theme directory. For my demo, I created a "dist" folder with various assets I use in my theme (such as my CSS "library").
+
+📁 themename
+- 📄 themename.info.yml
+- 📄 themename.libraries.yml
+- 📁 dist
+	- 📁 icons
+	- 📁 js
+	- 📁 assets
+		- - 📄 logo.svg
+		- - 📄 screenshot.png
+	- 📄 style.css
+
+
+Next, I need to edit my themename.info.yml folder to tell Drupal where these files are:
+
+```
+name: themename
+description: An experimental Drupal theme
+type: theme
+core_version_requirement: ^11
+base theme: false
+logo: dist/assets/logo.svg
+screenshot: dist/assets/screenshot.png
+
+libraries:
+  - themename/themename
+
+regions:
+  header_top: 'Header Top'
+  header: 'Header'
+  header_bottom: 'Header Bottom'
+  content_top: 'Content Top'
+  content: 'Content'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  content_bottom: 'Content Bottom'
+  footer_top: 'Footer Top'
+  footer: 'Footer'
+  footer_bottom: 'Footer Bottom'
+```
+
+Next, flush your Drupal cache:
+
+`ddev drush cr
+`
+And you should see the logo and screenshot in your local dev environment.
