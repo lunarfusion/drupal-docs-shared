@@ -1,7 +1,3 @@
-This vault is for documentation of design system and Drupal knowledge.
-
-## Related Links
-
 ### Skeleton
 An experimental Drupal theme
 https://github.com/lunarfusion/skeleton
