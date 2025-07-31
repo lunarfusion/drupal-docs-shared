@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Related Links.md",
+                "file": "Drupal Hosting/Acquia Cloud SSH Key.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Related Links"
+              "title": "Acquia Cloud SSH Key"
             }
           }
         ],
@@ -213,12 +213,16 @@
   },
   "active": "0c77d1aa4ae3beb3",
   "lastOpenFiles": [
-    "ReadMe.md",
-    "Related Links.md",
-    "Drupal Themeing/01 - Frontend Design and Development.md",
-    "Drupal Themeing/00 - Beginning Themeing.md",
-    "Drupal Modules/02 - Modules for SDC and UI Suite.md",
+    "Drupal Hosting/Acquia Cloud API Token.md",
+    "Drupal Hosting/Acquia Cloud SSH Key.md",
+    "Drupal Themeing/02 - Content Building Tools - Paragraphs.md",
+    "Drupal Hosting",
     "Drupal Modules/01 - Content Modules.md",
+    "Drupal Themeing/01 - Frontend Design and Development.md",
+    "Related Links.md",
+    "Drupal Modules/02 - Modules for SDC and UI Suite.md",
+    "ReadMe.md",
+    "Drupal Themeing/00 - Beginning Themeing.md",
     "Drupal Local Dev Setup/02 - Drupal 11 Local Dev Installation.md",
     "Drupal Local Dev Setup/01 - Drupal Dependencies.md",
     "Design Systems/01 - Design System Resources.md",
